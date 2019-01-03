@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+  <!-- Required meta tags -->
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>insert bus timetable</title>
+</head>
+<body>
+  <div class="container-fluid">
+   <div class="row-fluid">
+
+     <form action="http://192.168.1.116/bus_timetable/print_bus_timetable.cgi" method="GET">
+            
+      <input type="hidden" name="add" value="1">
+
+       <div class="form-group">
+        <label for="exampleInputFirst_name1">ID</label>
+        <input type="name" class="form-control" name="id" id="exampleInputName1" aria-describedby="First_namelHelp" placeholder="Enter ID">
+       </div>
+
+       <div class="form-group">
+        <label for="exampleInputLast_name1">Time</label>
+        <input type="name" class="form-control" name="time" id="exampleInputName1" aria-describedby="manelHelp" placeholder="Enter Time">
+       </div>
+
+       <div class="form-group">
+        <label for="exampleInputLast_name1">Name</label>
+        <input type="name" class="form-control" name="name" id="exampleInputName1" aria-describedby="manelHelp" placeholder="Enter Name">
+       </div>
+
+       <div class="form-group">
+        <label for="exampleInputLast_name1">Cost</label>
+        <input type="name" class="form-control" name="cost" id="exampleInputName1" aria-describedby="manelHelp" placeholder="Enter Cost">
+       </div>
+
+       <div class="form-group">
+        <label for="exampleInputLast_name1">Status</label>
+        <input type="name" class="form-control" name="status" id="exampleInputName1" aria-describedby="manelHelp" placeholder="Enter Status">
+       </div>
+   </div>
+       <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Save changes</button>
+       </div>
+</form>
+</div>
+</div>    
+
+
+
+
+
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
